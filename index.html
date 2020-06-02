@@ -1,0 +1,1044 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- title -->
+		<title>Физика</title>
+
+		<!-- load style -->
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/my.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		
+		<!--Fonts-->
+		<link rel="stylesheet" 
+			href="css/font-awesome-4.3.0/css/font-awesome.min.css">
+
+		<!-- Printing and PDF exports -->				
+		<script>
+			let link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!-- !importnat style -->
+		<style>
+			.formula {
+				margin-bottom: 10px !important;
+			}
+			.offscreen {
+				clip: rect(1px 1px 1px 1px);
+				clip: rect(1px, 1px, 1px, 1px);
+				height: 1px;
+				overflow: hidden;
+				position: absolute;
+				white-space: nowrap;
+				width: 1px;
+			}
+			.offscreen:focus {
+				position: relative;
+				clip: auto;
+				width: auto;
+				height: auto;
+				overflow: auto;
+			}
+		</style>
+
+	</head>
+	<body>
+		<!-- Разметка презентации -->
+		<div class="reveal">
+
+			<!-- Кнопка для включения и отключения субтитр -->
+			<div class="chalkboard-button" id="toggle-chalkboard" 
+				style="position: fixed; z-index: 30; font-size: 22px;
+				left: 60px; bottom: 32px;" >
+				<a href="#" id="noteswitch" title="Включение/отключение
+					заметок к слайду">
+					<i class="fa fa-sticky-note" aria-label="
+					Заметки к слайду"></i>
+				</a>
+			</div>
+
+			<div class="slides">				
+				<section data-markdown data-separator-notes="^Note:">
+					## Физика
+										
+					Note: Заголовок физика
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						### Фундаментальные понятия физики
+						Note:Фундаментальные понятия физики
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						#### Скорость
+						
+						векторная физическая величина, характеризующая быстроту перемещения и 
+						направление движения материальной точки относительно выбранной системы отсчёта; по определению, 
+						равна производной радиус-вектора точки по времени
+						
+						Note:
+						-векторная физическая величина, характеризующая быстроту перемещения и 
+						направление движения материальной точки относительно выбранной системы отсчёта; по определению, 
+						равна производной радиус-вектора точки по времени
+						
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						#### Единицы измерения скорости
+						
+						$$ m/s - \text{метры в секунду}$$
+						$$ km/h - \text{километры в час}$$
+						$$ mps - \text{миля в секунду}$$
+						$$ fps - \text{фут в секунду}$$
+						$$ kn - \text{узел}$$
+
+						Note: Единицы измерения скорости
+						м/с - метры в секунду
+						км/ч - километры в час
+						mps - миля в секунду
+						fps - фут в секунду
+						kn - узел
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						#### Температура
+						физическая величина, характеризующая термодинамическую систему и количественно 
+						выражающая интуитивное понятие о различной степени нагретости тел.
+						
+						Note: Температура
+						- физическая величина, характеризующая термодинамическую систему и количественно 
+						выражающая интуитивное понятие о различной степени нагретости тел.
+
+					</script>
+				</section>
+				
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						#### Единицы измерения температуры
+
+						$$C - \text{градус Цельсия}$$
+						$$F - \text{градус Фаренгейта}$$
+						$$K - \text{Кельвин}$$
+						$$Ra - \text{градус Ранкина}$$
+						
+						Note:
+						Единицы измерения температуры
+						C - градус Цельсия
+						F - градус Фаренгейта
+						K - Кельвин
+						Ra - градус Ранкина
+					</script>
+				</section>
+				
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						#### Расстояние
+
+						В физике расстояние меряется единицами длины, которые в большинстве систем измерений являются одной из основных единиц измерения. 
+						В международной системе единиц (СИ) за единицу длины принят метр.
+						Расстоянием также называют длину пути, пройденного объектом. В этом случае производной расстояния по времени является скорость.
+
+						Note: В физике расстояние меряется единицами длины, которые в большинстве систем измерений являются одной из основных единиц измерения. 
+						В международной системе единиц (СИ) за единицу длины принят метр.
+						Расстоянием также называют длину пути, пройденного объектом. В этом случае производной расстояния по времени является скорость.
+
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						#### Единицы измерения расстояния
+
+						$$ m - \text{метр}$$
+						$$ km - \text{километр}$$
+						$$ in - \text{дюйм}$$
+						$$ yd - \text{ярд}$$
+						$$ ml - \text{миля}$$
+
+						Note: Единицы измерения расстояния
+						м - метр
+						км - километр
+						in - дюйм
+						yd - ярд
+						ml - миля
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">	
+						#### Масса
+						скалярная физическая величина, определяющая инерционные и гравитационные 
+						свойства тел в ситуациях, когда их скорость намного меньше скорости света.
+												
+						Note: Масса
+						- скалярная физическая величина, определяющая инерционные и гравитационные 
+						свойства тел в ситуациях, когда их скорость намного меньше скорости света.
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">	
+						#### Единицы измерения массы
+
+						$$ kg - \text{килограмм} $$
+						$$ g - \text{грамм}$$
+						$$ q - \text{центнер}$$
+						$$ ton - \text{тонна}$$
+						$$ ct - \text{карат}$$
+					
+						Note: кг - килограмм
+						г - грамм
+						ц - центнер
+						т - тонна
+						кар - карат
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						#### Площадь
+						численная характеристика, вводимая для определённого класса плоских геометрических фигур 
+						и обладающая свойствами площади. Интуитивно, из этих свойств следует, что бо́льшая площадь фигуры соответствует её «большему размеру», 
+						a оценить площадь фигуры можно с помощью 
+						наложения на её рисунок сетку из линий, образующих одинаковые квадратики (единицы площади) и подсчитав число квадратиков и их долей, попавших внутрь фигуры.
+						
+						Note: Площадь
+						- численная характеристика, вводимая для определённого класса плоских геометрических фигур 
+						и обладающая свойствами площади. Интуитивно, из этих свойств следует, что бо́льшая площадь фигуры соответствует её «большему размеру»,
+						 a оценить площадь фигуры можно с помощью 
+						наложения на её рисунок сетку из линий, образующих одинаковые квадратики (единицы площади) и подсчитав число квадратиков и их долей, попавших внутрь фигуры.
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						#### Единицы измерения площади
+		
+						$$ ha - \text{гектар}$$
+						$$ m^2 - \text{квадратный метр}$$
+						$$ km^2 - \text{квадратный километр}$$
+						$$ dm^2 - \text{квадратный дециметр}$$
+						$$ a - \text{ар}$$
+
+
+						Note:Га - гектар
+						квадратный метр
+						квадратный километр
+						квадратный дециметр
+						а - ар
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						#### Объем
+						количественная характеристика пространства, занимаемого телом или веществом.
+
+						Note: Объем - количественная характеристика пространства, занимаемого телом или веществом.
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						#### Единицы измерения объёма
+						
+						$$ L - \text{литр} $$ 
+						$$ m^3 - \text{кубический метр}$$
+						$$ km^3 - \text{кубический километр}$$
+						$$ ml - \text{миллилитр}$$ 
+						$$ gal - \text{галлон}$$ 
+
+						Note: Единицы измерения объема
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						#### Давление
+						экстенсивная физическая величина, численно равная силе, действующей на единицу площади поверхности перпендикулярно этой поверхности.
+						В данной точке давление определяется как отношение нормальной составляющей силы, действующей на малый элемент поверхности, к его площади
+						$$ p = \dfrac{dF_{n}}{dS} $$
+						Note:
+						
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						#### Единицы измерения давления
+						
+						$$ Pa - \text{Паскаль} $$
+						$$ Bar - \text{ Бар} $$
+						$$ mm Hg - \text{Миллиметр ртутного столба}$$ 
+						$$ At - \text{Атмосфера}$$ 
+						$$ m H_{2}0 - \text{Миллиметр водного столба}$$ 
+
+						Note: Единицы измерения давления 
+						паскаль
+						Бар
+						Миллиметр ртутного столба
+						Атмосфера
+						Миллиметр водного столба
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						### Конвертеры единиц измерения
+						
+						Note:Конвертеры единиц измерения 
+					</script>
+				</section>
+				<section data-menu-title="Конвертер мер длины" id="length">
+					<div>Меры длины</div>
+					<form >
+						<select name="len1" id="l1">
+						</select>
+						<input type="text" id="inputLength"></input>
+						<select name="len2" id="l2">
+						  </select>
+						<input type="button" onclick="f()" value="ok">
+						<output type="text" id="outputLength"></output>
+					</form>
+					<aside class="notes">
+						Конвертер для мер длины
+					</aside>
+				</section>
+				<section data-menu-title="temperature">
+					<div>Температура</div>
+					<form >
+						<select name="temp1" id="t1">
+						</select>
+						<input type="text" id="inputTemp"></input>
+						<select name="temp2" id="t2">
+						  </select>
+						<input type="button" onclick="fT()" value="ok">
+						<output type="text" id="outputTemp"></output>
+					</form>
+					<aside class="notes">
+						Конвертер для температуры
+					</aside>
+				</section>
+				<section data-menu-title="weight">
+					<div>Масса</div>
+					<form >
+						<select name="mass1" id="m1">
+						</select>
+						<input type="text" id="inputMass"></input>
+						<select name="mass2" id="m2">
+						  </select>
+						<input type="button" onclick="fM()" value="ok">
+						<output type="text" id="outputMass"></output>
+					</form>
+					<aside class="notes">
+						Конвертер для массы
+					</aside>
+				</section>
+				<section data-menu-title="Задачи на скорость">
+					<h3>Программа для нахождения скорости</h3>
+					<label> Время:
+						<input type="text" id="time1"></input>
+					</label>
+					<label> Расстояние:
+						<input type="text" id="distance1"></input><br>
+					</label>
+					<label> Скорость:
+						<output type="text" id="speed1"></output>
+					</label>
+					<aside class="notes">Программа для гахождения скорости</aside>
+				</section>
+				<section data-menu-title="Задачи на время">
+					<h3>Программа для нахождения времени</h3>
+					<label> Скорость:
+						<input type="text" id="speed2"></input>
+					</label>
+					<label> Расстояние:
+						<input type="text" id="distance2"></input><br>
+					</label>
+					<label> Время:
+						<output type="text" id="time2"></output>
+					</label>
+					<aside class="notes">Программа для нахождения времени</aside>
+				</section>
+				<section data-menu-title="Задачи на расстояние">
+					<h3>Программа для нахождения расстояния</h3>
+					<label> Время:
+						<input type="text" id="time3"></input>
+					</label>
+					<label> Скорость:
+						<input type="text" id="speed3"></input><br>
+					</label>
+					<label>Расстояние:
+						<output type="text" id="distance3"></output>
+					</label>
+					<aside class="notes">Программа для нахождения расстояния</aside>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						### Исходный код - конвертер мер длин
+						```
+						let lengthC = ["km","m","dm","cm","mm","mi","yd","in","ft"];
+						let lengthCm = [1000,1,0.1,0.01,0.001,1609.344,0.9144, 0.0254,0.3048];
+						function f(){
+							let a1=document.getElementById('l1').value;
+							let a2=document.getElementById('l2').value;
+							let a3=document.getElementById('inputLength').value;
+							let lOut1;
+							let lOut2;
+							
+							for (var i = 0; i < lengthC.length; i++)
+							{
+								if(a1==lengthC[i]){
+									lOut1=a3*lengthCm[i];
+								}
+							}
+							for (var i = 0; i < lengthC.length; i++)
+							{
+								if(a2==lengthC[i]){
+									lOut2=lOut1/lengthCm[i];
+								}
+							}
+							document.querySelector('#outputLength').innerHTML = '<br>'+ lOut2;
+						}
+						function f1(){
+							let e1 = document.getElementById('l1');
+							for (var i = 0; i < lengthC.length; i++)
+							{
+								var option = document.createElement('option');
+								option.innerHTML = lengthC[i];
+								e1.appendChild(option);
+							}
+							let e2 = document.getElementById('l2');
+							for (var i = 0; i < lengthC.length; i++)
+							{
+								var option = document.createElement('option');
+								option.innerHTML = lengthC[i];
+								e2.appendChild(option);
+							}
+						}
+
+						```
+						
+						Note:Исходный код конвертеров
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						### Исходный код - конвертер температур
+						```			
+						let temp=["C","K","F","R"];
+						function fT(){
+							let a1=document.getElementById('t1').value;
+							let a2=document.getElementById('t2').value;
+							let a3=document.getElementById('inputTemp').value;
+							let tOut1;
+							let tOut2;
+							
+							for (var i = 0; i < temp.length; i++)
+							{
+								if(a1=="K"){
+									tOut1=a3-273.15;
+								}
+								else if(a1=="F"){
+									tOut1=(5/9)*(a3-32);
+								}
+								else if(a1=="R"){
+									tOut1=(a3-491.67)/1.8;
+								}
+								else{
+									tOut1=parseFloat(a3);
+								}
+							}
+							for (var i = 0; i < temp.length; i++)
+							{
+								if(a2=="K"){
+									tOut2 = tOut1+273.15;
+								}
+								else if(a2=="F"){
+									tOut2=(9/5)*tOut1+32;
+								}
+								else if(a2=="R"){
+									tOut2=tOut1*1.8+491.67;
+								}
+								else{
+									tOut2=tOut1;
+								}
+							}
+							document.querySelector('#outputTemp').innerHTML = '<br>'+ tOut2;
+						}
+						function f2(){
+							let e1 = document.getElementById('t1');
+							for (var i = 0; i < temp.length; i++)
+							{
+								var option = document.createElement('option');
+								option.innerHTML = temp[i];
+								e1.appendChild(option);
+							}
+							let e2 = document.getElementById('t2');
+							for (var i = 0; i < temp.length; i++)
+							{
+								var option = document.createElement('option');
+								option.innerHTML = temp[i];
+								e2.appendChild(option);
+							}
+						}
+
+						```
+						
+						Note:Исходный код конвертеров
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						### Исходный код - конвертер масс
+						```
+						let mass = ["kg","g","centner","ton","carat"];
+						let massM = [1,0.001,100,1000,0.0002];
+						function fM(){
+							let a1=document.getElementById('m1').value;
+							let a2=document.getElementById('m2').value;
+							let a3=document.getElementById('inputMass').value;
+							let mOut1;
+							let mOut2;
+							
+							for (var i = 0; i < mass.length; i++)
+							{
+								if(a1==mass[i]){
+									mOut1=a3*massM[i];
+								}
+							}
+							for (var i = 0; i < mass.length; i++)
+							{
+								if(a2==mass[i]){
+									mOut2=mOut1/massM[i];
+								}
+							}
+							document.querySelector('#outputMass').innerHTML = '<br>'+ mOut2;
+						}
+						function f3(){
+							let e1 = document.getElementById('m1');
+							for (var i = 0; i < mass.length; i++)
+							{
+								var option = document.createElement('option');
+								option.innerHTML = mass[i];
+								e1.appendChild(option);
+							}
+							let e2 = document.getElementById('m2');
+							for (var i = 0; i < mass.length; i++)
+							{
+								var option = document.createElement('option');
+								option.innerHTML = mass[i];
+								e2.appendChild(option);
+							}
+						}
+
+						```
+						
+						Note:Исходный код конвертеров
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						### Исходный код - нахождение скорости
+						```
+					
+						let speed = () =>{
+							let s = math.parse(document.querySelector('#distance1').value);
+							let t = math.parse(document.querySelector('#time1').value);
+							let res = s/t;
+							document.querySelector('#speed1').innerHTML=res.toFixed(2)+"км/ч";
+			
+						}
+			
+						```
+						
+						Note:Исходный код нахождения скорости
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						### Исходный код - нахождения времени
+						```
+						let time = () =>{
+							let s = math.parse(document.querySelector('#distance2').value);
+							let v = math.parse(document.querySelector('#speed2').value);
+							let res = s/v;
+							document.querySelector('#time2').innerHTML=res.toFixed(2)+"ч";
+			
+						}
+						
+						```
+						
+						Note:Исходный код нахождения времени
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						### Исходный код - нахождения расстояния
+						```
+						let distance = () =>{
+							let t = math.parse(document.querySelector('#time3').value);
+							let v = math.parse(document.querySelector('#speed3').value);
+							let res= t*v;
+							
+							document.querySelector('#distance3').innerHTML=res.toFixed(2)+"км";
+						}
+			
+						```
+						
+						Note:Исходный код нахождения расстояния
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						### Примеры задач
+						
+						Note:Примеры задач
+					</script>
+				</section>
+				<section >
+					<h4>Пример №1</h4>
+					<p>Известны скорость и время. Найти расстояние</p>
+					<p>
+						<img src="image/zad1.jpg" alt="задача">
+					</p>
+					<aside class="notes">
+						Задача нахождения расстояния.
+					</aside>
+				</section>
+				<section >
+					<h4>Пример №2</h4>
+					<p>Расстояние между городами А и В равно 435 км. Из города А в город В со скоростью 60 км/ч выехал первый автомобиль, а через час после этого навстречу ему из города В выехал со скоростью 65 км/ч второй автомобиль. На каком расстоянии от города А автомобили встретятся?</p>
+					
+					<aside class="notes">
+						Пример №2
+					</aside>
+				</section>
+				<section >
+					<h4>Решение №2</h4>
+					<p>
+						<img src="image/zad2.jpg"  alt="задача">
+					</p>
+					<p>Через час после выезда первого автомобиля расстояние между автомобилями стало равно 435-60 = 375 (км), поэтому автомобили встретятся через время t=375/(60+65)=3. Таким образом, до момента встречи первый автомобиль будет находиться в пути 4 часа и проедет 60 · 4 = 240 (км).</p>
+					<aside class="notes">
+						решение задачи 2
+					</aside>
+				</section>
+				<section >
+					<h4>Пример №3. Движение вдогонку.</h4>
+					<p>Рассмотрим два объекта, один из которых догоняет другой, с указанными на рисунке скоростями.</p>
+					<p>
+						<img src="image/zad3.1.jpg" alt="Задача 3">
+					</p>
+					<p>
+						<img src="image/zad3.2.jpg" alt="Задача 3">
+					</p>
+					<aside class="notes">
+						Задача 3
+					</aside>
+				</section>
+				<section >
+					<h4>Решение №3</h4>
+					
+					<p>Видим, что расстояние между объектами сократилось на 15 – 10 = 5 метров. Т.е. объекты сближаются со скоростью, равной разности их скоростей. Значит, время, за которое первый объект догонит другой, или время их встречи равно 20 мин.</p>
+					<aside class="notes">
+						решение задачи 3
+					</aside>
+				</section>
+				<section >
+					<h4>Пример №4</h4>
+					<p>Два пешехода отправляются в одном направлении одновременно из одного и того же места на прогулку по аллее парка. Скорость первого на 1,5 км/ч больше скорости второго. Через сколько минут расстояние между пешеходами станет равным 300 метрам?</p>
+					
+					<aside class="notes">
+						Пример №4
+					</aside>
+				</section>
+				<section >
+					<h4>Решение №4</h4>
+					<p>
+						<img src="image/zad4.jpg" alt="Задача 4">
+					</p>
+					<p>Время t в часах, за которое расстояние между пешеходами станет равным 300 метрам, т. е. 0,3 км, находим по формуле t=0.3/15 = 0.2 часа = 12 минут</p>
+					<aside class="notes">
+						решение задачи 4
+					</aside>
+				</section>
+				<section >
+					<h4>Пример №5</h4>
+					<p>Допустим, из точки A и из точки B навстречу друг другу выехали две машины. Скорость одной машины – 60 км/ч, а скорость 2 машины – 40 км/ч. Они встретились через 1,2 часа. Какое расстояние между пунктами A и B</p>
+					
+					<aside class="notes">
+						Пример №5
+					</aside>
+				</section>
+				<section >
+					<h4>Решение №5</h4>
+					<p>
+						<img src="image/zad5.jpg" alt="Задача 5">
+					</p>
+				
+					<aside class="notes">
+						решение задачи 5
+					</aside>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						#### Обозначения
+						$S$ — расстояние
+						$v$ — скорость
+						$t$ — время
+						
+					</script>
+				</section>
+				<section data-markdown data-separator-notes="^Note:">
+					<script type="text/template">
+						### Мемасики по теме
+						
+						Note:Мемасики по теме
+					</script>
+				</section>
+				<section data-menu-title="Картинка 1">
+					
+					<p>
+						<img src="image/mem1.jpg" width="500" height="500" alt="Мем1">
+					</p>
+
+					
+				</section>
+				<section data-menu-title="Картинка 2">
+					
+					<p>
+						<img src="image/mem2.jpg" width="500" height="500" alt="Мем2">
+					</p>
+					
+				</section>
+				<section data-menu-title="Картинка 3">
+					
+					<p>
+						<img src="image/mem3.jpg" width="500" height="500" alt="Мем3">
+					</p>
+					
+				</section>
+				<section data-menu-title="Картинка 4">
+					
+					<p>
+						<img src="image/mem4.jpg" alt="Мем4">
+					</p>
+					
+				</section>
+				<section data-menu-title="Картинка 5">
+					
+					<p>
+						<img src="image/mem5.jpg" alt="Мем5">
+					</p>
+					
+				</section>			
+				<section data-markdown data-separator-notes="^Note:" data-menu-title="Конец презентации">
+					<script type="text/template">
+						Спасибо за внимание
+					</script>
+					<span class="offscreen">
+						Конец презентации
+					</span>
+				</section>
+			</div>
+		</div>
+
+		<!-- load js -->
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="js/lib.js"></script>
+		<!-- Библиотека для математики -->
+		<script src="lib/js/math.min.js"></script>
+		<!-- Библиотека для математики -->
+		<script src="lib/js/algebrite.bundle-for-browser.js"></script>
+		<!-- Библиотека для рисования графиков -->
+		<script src="lib/js/plotly.min.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				
+				// save slide
+				history: true,
+				slideNumber: true,
+				touch: true,
+
+				// show katex error
+				math: {
+					notificationsEnabled: true,
+				},
+
+				menu: {
+					side: 'left', //Расположение меню
+					numbers: true, //Нумерация слайдов
+					markers: true, //Маркер посещения
+					titleSelector: 'h1, h2, h3, h4, h5, h6', //Заголовки, отображаемые в меню
+					useTextContentForMissingTitles: true, //Если заголовка нет, то подставляем первые слова слайда
+					hideMissingTitles: false, //Если заголовка нет, то скрываем слайд из меню
+					transitions: true, //Установить меню анимации
+					openButton: true, //Скрыть кнопку меню
+					keyboard: true, //Открытие меню по кнопке m
+				},
+
+				// load dependencies
+				dependencies: [
+					{
+						// tex
+						src: 'plugin/math-katex/math-katex.js', 
+						async: true,
+						callback: () => {
+							// solve problem with katex 
+							let section = document.querySelectorAll('section script');
+								section.forEach( (item, i) => {
+									section[i].innerHTML = section[i].innerHTML
+										.replace(/\\/g,'\\\\')
+										.replace(/_/g,'\\_')
+										.replace(/\{/g,'\\\{')
+										.replace(/\}/g,'\\\}');
+							});
+						},
+					}, { 
+						//markdown
+						src: 'plugin/markdown/marked.js',
+					}, { 
+						src: 'plugin/markdown/markdown.js', 
+						async: true,
+					},{ 
+						//Menu
+						src: 'plugin/menu/menu.js',
+						async: true
+					},{ 
+						//notes
+						src: 'plugin/notes/notes.js', 
+						async: true
+					}, { 
+						// highlight syntax
+						src: 'plugin/highlight/highlight.js', 
+						async: true, 
+						callback: () => {
+							//Костыль для совместной работы katex и markdown
+							let code = document.querySelectorAll('code');
+							code.forEach ( (item, i) => {
+								code[i].innerHTML = code[i].innerHTML
+									.replace(/\\{/g,'{')
+									.replace(/\\}/g,'}');
+							});
+							hljs.initHighlightingOnLoad();
+						}
+					}
+				]
+			});
+			let showNodes = () => {
+				Reveal.configure({
+					//Навесим событие на клавишу D
+					//Покажим заметки
+					showNotes: (
+						Reveal.getConfig().showNotes ? 
+							false: true
+						)
+				});
+				return false;
+			}
+
+			let lengthC = ["km","m","dm","cm","mm","mi","yd","in","ft"];
+			let lengthCm = [1000,1,0.1,0.01,0.001,1609.344,0.9144, 0.0254,0.3048];
+			function f(){
+				let a1=document.getElementById('l1').value;
+				let a2=document.getElementById('l2').value;
+				let a3=document.getElementById('inputLength').value;
+				let lOut1;
+				let lOut2;
+				
+				for (var i = 0; i < lengthC.length; i++)
+	            {
+	                if(a1==lengthC[i]){
+						lOut1=a3*lengthCm[i];
+					}
+				}
+				for (var i = 0; i < lengthC.length; i++)
+	            {
+	                if(a2==lengthC[i]){
+						lOut2=lOut1/lengthCm[i];
+					}
+				}
+				document.querySelector('#outputLength').innerHTML = '<br>'+ lOut2;
+			}
+			let mass = ["kg","g","centner","ton","carat"];
+			let massM = [1,0.001,100,1000,0.0002];
+			function fM(){
+				let a1=document.getElementById('m1').value;
+				let a2=document.getElementById('m2').value;
+				let a3=document.getElementById('inputMass').value;
+				let mOut1;
+				let mOut2;
+				
+				for (var i = 0; i < mass.length; i++)
+	            {
+	                if(a1==mass[i]){
+						mOut1=a3*massM[i];
+					}
+				}
+				for (var i = 0; i < mass.length; i++)
+	            {
+	                if(a2==mass[i]){
+						mOut2=mOut1/massM[i];
+					}
+				}
+				document.querySelector('#outputMass').innerHTML = '<br>'+ mOut2;
+			}
+			let temp=["C","K","F","R"];
+			function fT(){
+				let a1=document.getElementById('t1').value;
+				let a2=document.getElementById('t2').value;
+				let a3=document.getElementById('inputTemp').value;
+				let tOut1;
+				let tOut2;
+				
+				for (var i = 0; i < temp.length; i++)
+	            {
+	                if(a1=="K"){
+						tOut1=a3-273.15;
+					}
+					else if(a1=="F"){
+						tOut1=(5/9)*(a3-32);
+					}
+					else if(a1=="R"){
+						tOut1=(a3-491.67)/1.8;
+					}
+					else{
+						tOut1=parseFloat(a3);
+					}
+				}
+				for (var i = 0; i < temp.length; i++)
+	            {
+	                if(a2=="K"){
+						tOut2 = tOut1+273.15;
+					}
+					else if(a2=="F"){
+						tOut2=(9/5)*tOut1+32;
+					}
+					else if(a2=="R"){
+						tOut2=tOut1*1.8+491.67;
+					}
+					else{
+						tOut2=tOut1;
+					}
+				}
+				document.querySelector('#outputTemp').innerHTML = '<br>'+ tOut2;
+			}
+			function f1(){
+				let e1 = document.getElementById('l1');
+            	for (var i = 0; i < lengthC.length; i++)
+	            {
+	                var option = document.createElement('option');
+                	option.innerHTML = lengthC[i];
+	                e1.appendChild(option);
+            	}
+				let e2 = document.getElementById('l2');
+				for (var i = 0; i < lengthC.length; i++)
+	            {
+	                var option = document.createElement('option');
+                	option.innerHTML = lengthC[i];
+	                e2.appendChild(option);
+            	}
+			}
+			function f2(){
+				let e1 = document.getElementById('t1');
+            	for (var i = 0; i < temp.length; i++)
+	            {
+	                var option = document.createElement('option');
+                	option.innerHTML = temp[i];
+	                e1.appendChild(option);
+            	}
+				let e2 = document.getElementById('t2');
+				for (var i = 0; i < temp.length; i++)
+	            {
+	                var option = document.createElement('option');
+                	option.innerHTML = temp[i];
+	                e2.appendChild(option);
+            	}
+			}
+			function f3(){
+				let e1 = document.getElementById('m1');
+            	for (var i = 0; i < mass.length; i++)
+	            {
+	                var option = document.createElement('option');
+                	option.innerHTML = mass[i];
+	                e1.appendChild(option);
+            	}
+				let e2 = document.getElementById('m2');
+				for (var i = 0; i < mass.length; i++)
+	            {
+	                var option = document.createElement('option');
+                	option.innerHTML = mass[i];
+	                e2.appendChild(option);
+            	}
+			}
+			let time = () =>{
+				let s = math.parse(document.querySelector('#distance2').value);
+				let v = math.parse(document.querySelector('#speed2').value);
+				let res = s/v;
+				document.querySelector('#time2').innerHTML=res.toFixed(2)+"ч";
+
+			}
+			let speed = () =>{
+				let s = math.parse(document.querySelector('#distance1').value);
+				let t = math.parse(document.querySelector('#time1').value);
+				let res = s/t;
+				document.querySelector('#speed1').innerHTML=res.toFixed(2)+"км/ч";
+
+			}
+			let distance = () =>{
+				let t = math.parse(document.querySelector('#time3').value);
+				let v = math.parse(document.querySelector('#speed3').value);
+				let res= t*v;
+				
+				document.querySelector('#distance3').innerHTML=res.toFixed(2)+"км";
+			}
+
+			//Запускаем программы только после полной загрузки
+			window.onload = () =>  {
+				// Генерация таблицы производных сразу после загрузки презентации
+				f1();
+				f2();
+				f3();
+				//Открываем заметки или по кнопке или по клавише D
+				document.querySelector('#noteswitch').onclick = showNodes;
+				Reveal.configure({
+					keyboard: {
+						68: showNodes
+					}
+				});
+
+				//Делаем слайды инклюзивными, заменив заголовок
+				$('h3').each((i, j) => {$(i).html(`
+					<span class="offscreen">Заголовок слайда.</span>
+						${$(i).text()}
+					<span class="offscreen">.</span>
+				`)});
+
+				//Делаем слайды инклюзивными, добавив окончание слайда
+				$('aside').after(`<span class="offscreen">
+					Конец слайда. Для продолжения нажмите
+					<kbd>Space</kbd>
+				</span>`);
+				document.querySelector('#time1').onkeyup=speed;
+				document.querySelector('#distance1').onkeyup=speed;
+
+				document.querySelector('#speed2').onkeyup=time;
+				document.querySelector('#distance2').onkeyup=time;
+
+				document.querySelector('#time3').onkeyup=distance;
+				document.querySelector('#speed3').onkeyup=distance;
+
+
+			}
+		</script>
+	</body>
+</html>
